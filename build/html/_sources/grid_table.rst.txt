@@ -3,6 +3,8 @@ Grid Table Example
 
 Here is a grid table:
 
+.. table::
+    
 +------------+------------+---------+
 | Name       | Age        | Score   |
 +============+============+=========+

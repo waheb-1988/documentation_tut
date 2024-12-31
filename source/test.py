@@ -57,15 +57,15 @@ def add_bonus_score(dataframe, bonus_points):
     return dataframe
 
 
-def sort_by_age(dataframe, ascending=True):
-    """
-    Sorts the DataFrame by the Age column.
+# def sort_by_age(dataframe, ascending=True):
+#     """
+#     Sorts the DataFrame by the Age column.
 
-    Parameters:
-        dataframe (pd.DataFrame): The input DataFrame.
-        ascending (bool): Sort order. True for ascending, False for descending.
+#     Parameters:
+#         dataframe (pd.DataFrame): The input DataFrame.
+#         ascending (bool): Sort order. True for ascending, False for descending.
 
-    Returns:
-        pd.DataFrame: The sorted DataFrame.
-    """
-    return dataframe.sort_values(by='Age', ascending=ascending)
+#     Returns:
+#         pd.DataFrame: The sorted DataFrame.
+#     """
+#     return dataframe.sort_values(by='Age', ascending=ascending)

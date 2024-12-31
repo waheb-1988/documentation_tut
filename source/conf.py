@@ -19,7 +19,10 @@ sys.path.insert(0, os.path.abspath('.'))  # Add the 'source' directory to sys.pa
 
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',  # Optional: for better parsing of Google/NumPy docstrings
+    'sphinx.ext.autosummary',
+    'sphinx.ext.napoleon',  # For Google-style or NumPy-style docstrings
+    'sphinx_autodoc_typehints', # To include type hints in the docs
+    'sphinxcontrib.mermaid'
 ]
 
 templates_path = ['_templates']

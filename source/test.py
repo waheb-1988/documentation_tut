@@ -1,10 +1,7 @@
 import pandas as pd
 
-def create_sample_dataframe()-> pd.DataFrame:
-    """
-    Creates a sample DataFrame for demonstration purposes.
-
-    """
+def create_sample_dataframe() -> pd.DataFrame:
+    
     data = {
         'Name': ['Alice', 'Bob', 'Charlie', 'Diana'],
         'Age': [25, 30, 35, 40],

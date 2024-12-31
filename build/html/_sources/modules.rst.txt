@@ -6,3 +6,7 @@ source
 
    conf
    test
+   mermaid
+   grid_table
+   simple_table
+   image

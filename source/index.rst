@@ -17,3 +17,6 @@ documentation for details.
 
    test
    mermaid
+   grid_table
+   simple_table
+   image

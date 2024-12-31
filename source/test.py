@@ -1,11 +1,9 @@
 import pandas as pd
 
-def create_sample_dataframe():
+def create_sample_dataframe()-> pd.DataFrame:
     """
     Creates a sample DataFrame for demonstration purposes.
 
-    Returns:
-        pd.DataFrame: A sample DataFrame with random data.
     """
     data = {
         'Name': ['Alice', 'Bob', 'Charlie', 'Diana'],
